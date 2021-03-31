@@ -1,6 +1,5 @@
 <template>
   <Wrapper :style="{...styles}">
-    <div>test</div>
   </Wrapper>
 </template>
 

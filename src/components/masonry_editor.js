@@ -215,7 +215,7 @@ const Masonry = {
         //新增，dom序列号单数中心点最下方横向1/4,双数3/4
         const { width } = this.parseStyle(item);
         this.drop(item, {
-          x: parseInt(((index + 1) % 2 !== 0) ? this.left : this.right) - width / 2, y:
+          x: Math.random() * 100 % 12 * this.minWidth - width / 2, y:
           10000000000000000//todo 几乎无穷大,插入位置,原则上应该根据当前最高yAxis 运算
         }, index)
       }
