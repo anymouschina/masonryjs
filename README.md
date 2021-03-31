@@ -11,7 +11,7 @@ cnpm install @624144061/masonryjs
 ## 示例
 
 ```javascript
-import Masonry from 'masonryjs';
+import Masonry from '@624144061/masonryjs';
 Masonry.create(
 this.$refs['container'].$el,//容器 docoment
         {

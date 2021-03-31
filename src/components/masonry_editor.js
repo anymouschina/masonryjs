@@ -252,7 +252,7 @@ const Masonry = {
     console.info(yMap, xMap)
     Array.from(childrenElm).forEach((obj) => {
       const index = obj[0], item = obj[1];
-      const { startIndex, yAxis} = this.getRect(index)
+      const { startIndex, yAxis, endIndex, len } = this.getRect(index)
       item.style.visibility = 'initial';
       item.style['user-select'] = 'none';
       if (!this.getRect(index) || index === curElementIndex) {
