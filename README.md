@@ -1,4 +1,4 @@
-# @624144061/masonryjs
+# masonryjs
 
 流式拖拽排序
 
