@@ -24,6 +24,10 @@ this.$refs['container'].$el,//容器 docoment
 Masonry.update();//更新当前容器下的布局
 ```
 
+## demo
+
+![](image/README/1617247042015.png)
+
 ## Project setup
 
 ```
